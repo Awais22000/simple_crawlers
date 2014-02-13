@@ -1,4 +1,4 @@
 Simple Crawlers
 ===============
 
-Some simple crawlers in Python
+Some simple crawlers in Python.
