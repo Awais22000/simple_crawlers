@@ -1,4 +1,4 @@
-simple_crawlers
+Simple Crawlers
 ===============
 
 Some simple crawlers in Python
