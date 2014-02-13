@@ -1,7 +1,7 @@
 import requests
 
 # These are the accounts/handles for which you will fetch data from.
-names_list = [
+list_of_handles = [
     'angrybirds',
     'assassinscreed'
 ]
@@ -10,9 +10,9 @@ names_list = [
 base_url = 'https://graph.facebook.com/'
 
 # Iterate over the handles and trigger the API with each.
-for user in names_list:
-    url = base_url + user
-    print 'Fetching: ' + user
+for handle in list_of_handles:
+    url = base_url + handle
+    print 'Fetching: ' + handle
     response = requests.get(url)
     profile = response.json()
     print profile
