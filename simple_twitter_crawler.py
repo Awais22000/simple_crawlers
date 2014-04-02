@@ -9,7 +9,7 @@ api = twitter.Api(consumer_key='your-consumer-key',
 # These are the accounts/handles for which you will fetch data from.
 list_of_handles = [
     'mattgemmell',
-    'angrybirds'
+    'angrybirds',
 ]
 
 # Iterate over the handles and trigger the API with each.
